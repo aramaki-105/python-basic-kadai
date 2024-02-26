@@ -1,7 +1,0 @@
-upper_botton = 10
-botton = 20
-height = 5
-
-area = ((upper_botton + botton) * height / 2 )
-
-print(f"台形の面積は{area}㎠です。")
