@@ -1,5 +1,8 @@
-def get_tax(price, rate):
-    totale = price * rate
-    print(f"{totale}円")
+def get_tax(price, tax):
+    totale = price + price * (tax / 100)
+    return totale
 
-get_tax(1200, 1.1)
+
+totale_price = get_tax(1200, 10)
+
+print(f"{price}円 (税込){totale_price}円")
